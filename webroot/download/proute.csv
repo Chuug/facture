@@ -1,0 +1,11 @@
+ID;Date;Société;Nom;Adresse;Numéro d'entreprise;Code d'activité;Numéro de TVA;Numéro de téléphone;Adresse email;Site internet;Devise;Montant HT;Montant TVA;Montant TTC
+A1900001;06/09/2019 02:40;Proute;Nom1 Prénom1;Belgique;;;;0494111111;supermail@mail.com;;€;-10,00;-1,20;-11,20
+F1900001;06/09/2019 02:40;Proute;Hugo Collot;Rue de Balart 53/5 5000 Namur Belgique;;;;0494607670;collot.hugo@gmail.com;www.chuug.net;€;300,00;36,00;336,00
+F1900002;09/09/2019 09:11;Poupoudi;;Belgique;;;;;;;€;100,00;12,00;112,00
+F1900004;26/09/2019 00:57;HelloTeam;Bruce Wayne;Rue des rues chauve-souris 69 13377 Gotham Belgique;;;;0494606060;batman@gmail.com;www.batman.swag;€;2 250,00;270,00;2 520,00
+F20190926006;26/09/2019 01:00;Proute;George Pompidou;Namur Belgique;;;;;hugo.collot@gmail.com;;€;50,00;0,00;50,00
+F1900007;26/09/2019 19:17;;Peter Griffin;Belgique;;;;;;;€;250,00;30,00;280,00
+F1900008;01/10/2019 13:27;Proute;Hugo Collot;Rue de Balart 53/5 5000 Namur Belgique;;;;0494607670;collot.hugo@gmail.com;www.chuug.net;€;299,25;35,91;335,16
+F1900009;08/10/2019 13:47;Proute;;Rue de Balart 53 5000 Namur Belgique;258741;321654;123321;0494607670;;www.proute.be;€;2,00;0,24;2,24
+
+;;;;;;;;;;;Totaux;3 241,25;382,95;3 624,20

@@ -1,0 +1,75 @@
+		<div class="article-$n article" id="$n">
+			<input type="text" value="" name="articles[$n][id]" class="d-none" id="id-$n">
+			<div class="left-article">
+				<button class="btn btn-sm btn-primary rounded-top up-$n article-up move-article disabled mb-1" id="$n">
+					<span class="fa fa-arrow-up"></span>
+				</button>
+				<button class="btn btn-sm btn-primary rounded-bottom down-$n article-down move-article disabled" id="$n">
+					<span class="fa fa-arrow-down"></span>
+				</button>
+			</div>
+			<div class="article-content pl-3">
+				<div class="type-field">
+					<div class="field field-type">
+						<div class="form-group">
+							<label for="type-$n" class="mb-1">Type</label>
+							<select id="type-$n" name="articles[$n][type]" class="field-bordered art"></select>
+						</div>
+					</div>
+				</div>
+				<div class="line-field">
+					<div class="field">
+						<div class="form-group">
+							<label for="quantity-$n" class="mb-0">Quantité</label>
+							<input type="number" id="quantity-$n" name="articles[$n][quantity]" class="field-bordered art" step="1" min="0" required>
+						</div>
+					</div>
+					<div class="field">
+						<div class="form-group">
+							<label for="ht_price-$n" class="mb-0">Prix HT</label>
+							<input type="number" id="ht_price-$n" name="articles[$n][ht_price]" class="field-bordered prix-ht art" step="any" min="0" required>
+						</div>
+					</div>
+					<div class="field">
+						<div class="form-group">
+							<label for="tva-$n" class="mb-0">TVA</label>
+							<select id="tva-$n" name="articles[$n][tva]" class="field-bordered art" $disabled></select>
+						</div>
+					</div>
+					<div class="field field-larger">
+						<div class="form-group">
+							<label for="reduction-$n" class="mb-0">Réduction</label><br>
+							<input type="number" name="articles[$n][reduction]" id="reduction-$n" class="field-bordered field-reduction art">
+							<select id="reduction_param-$n" name="articles[$n][reduction_param]" class="field-bordered field-reduction-param art">
+								<option value="0">%</option>
+								<option value="1">€</option>
+							</select>
+						</div>
+					</div>
+					<div class="field">
+						<div class="form-group">
+							<label for="ht_total-$n" class="mb-0">Total HT</label>
+							<input type="number" id="ht_total-$n" name="articles[$n][ht_total]" class="field-bordered art" step="any" readonly="readonly">
+						</div>
+					</div>
+					<div class="field">
+						<div class="form-group">
+							<label for="ttc_total-$n" class="mb-0">Total TTC</label>
+							<input type="number" id="ttc_total-$n" name="articles[$n][ttc_total]" class="field-bordered total-ttc art" step="any" readonly="readonly">
+						</div>
+					</div>
+				</div>
+				<div class="area-field">
+					<textarea id="description-$n" class="field-area" name="articles[$n][description]" placeholder="Description"></textarea>
+				</div>
+			</div>
+			<div class="right-article">
+				<button class="btn btn-primary btn-sm btn-circle mb-1 delete-$n delete" id="$n" data-toggle="tooltip" data-placement="right" title="Supprimer l'article">
+					<span class="fa fa-times fa-lg"></span>
+				</button><br>
+				<button class="btn btn-primary btn-sm btn-circle duplicate-$n duplicate" data-toggle="tooltip" data-placement="right" title="Dupliquer l'article">
+					<span class="fa fa-copy"></span>
+				</button>
+			</div>
+		</div>
+

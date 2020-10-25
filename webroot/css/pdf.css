@@ -1,0 +1,172 @@
+.content {
+	font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+	padding-top: 20px;
+	width:100%;
+	color:#333435;
+}
+
+.fullblock {
+	width: 1000px;
+}
+
+.block {
+	display: table-cell;
+	page-break-inside: avoid;
+	width: 500px;
+}
+
+.tots{
+  border-top:0px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  text-align: right !important;
+  background-color: white !important;
+}
+
+.totst {
+  padding-top: 15px !important;
+}
+
+.blanc-bg{
+	background-color: white !important;
+}
+
+.head {
+	margin-bottom:30px;
+}
+
+.titles {
+	font-size:1.6em;
+	margin-top:30px;
+	font-weight: normal;
+}
+
+body {
+	font-size: 1em !important;
+}
+
+table {
+	border-collapse: collapse;
+}
+.table td,th {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-weight: normal;
+}
+
+.table th {
+	color:grey;
+}
+
+th,tr.border-bottom td {
+	border-bottom: 1.5pt solid #afafb0;
+}
+
+.pright {
+	padding-right: 10px;
+}
+
+.pleft {
+	padding-left: 10px;
+}
+
+.sub-title{
+	font-size: 1.5em;
+	margin-bottom: 25px;
+}
+
+.date {
+	font-size: 1.4em;
+	margin-top:0px;
+	color:grey;
+}
+
+.sub-head{
+	margin-top: 100px;
+	display: block;
+}
+
+
+
+.group{
+	margin-bottom: 8px;
+}
+
+.group.cost-group{
+	text-align: right;
+}
+
+.left{
+	display: inline-block;
+	width: 40%;
+	color:grey;
+	vertical-align: top;
+}
+
+.left.cost{
+	font-weight: bold;
+	width: 50%;
+}
+
+.right{
+	display: inline-block;
+	vertical-align: bottom;
+	width: 45%;
+}
+
+
+.right.cost{
+	width: 35%;
+}
+
+.corps {
+
+margin-top: 100px;
+
+}
+
+table{
+	width: 100%;
+}
+
+
+
+.breakafter {
+	overflow: hidden;
+	page-break-after: always;
+}
+
+.text-conditions {
+	text-align: justify-all;
+	color:blue !important;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.font-weight-bold {
+	font-weight: bold !important;
+}
+
+.m-r {
+	margin-right:10px;
+}
+
+.signature {
+	border: 1px #c8c8c8 solid;
+	height: 100px;
+}
+
+.quality {
+	border: 1px #c8c8c8 solid;
+	height: 50px;	
+}
